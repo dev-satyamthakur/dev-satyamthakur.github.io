@@ -44,8 +44,20 @@
                 <span class="up">HI THERE!</span>
                 <span class="down">I am Satyam Thakur</span>
             </h1>
-            <p class="header-subtitle">DESIGNER & DEVELOPER </p>
-
+            <span>
+                <div class="animation-container">
+                  <span class="auto-type"></span>
+                </div>
+                <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+                <script>
+                  var typed = new Typed(".auto-type", {
+                    strings: ["Developer", "Designer"],
+                    typeSpeed: 100,
+                    backSpeed: 100,
+                    loop: true
+                  })
+                </script>
+              </span>
             <a href="https://github.com/dev-satyamthakur" class="btn btn-primary" target="_blank">
                 Visit My GitHub
             </a>
