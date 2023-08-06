@@ -12285,26 +12285,35 @@ pre .code {
 
 
 .slide{
-  margin-left: 15.5%;
-  margin-right: 15.5%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .carousel-control-prev /*, .carousel-indicators */ {
   filter: invert(100%);
   position: absolute;
   top: 50%;
-  left: -10%;
-  transform: translate(-50%, -50%);
-  background-color: black;
+  left: 0;
+  transform: translate(4%, 130%);
 }
 .carousel-control-next/*, .carousel-indicators */ {
   filter: invert(100%);
   position: absolute;
   top: 50%;
-  right: -10%;
-  transform: translate(50%, -50%);
+  right: 0;
+  transform: translate(0%, 130%);
 }
 .carousel-indicators .active {
   background-color: #337ab7;
   position: relative;
   top:10%;
+}
+.app-heading{
+  position: relative;
+  left:20%;
+  margin-bottom: 48px;
+}
+
+#myapps{
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
