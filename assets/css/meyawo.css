@@ -12236,3 +12236,75 @@ pre .code {
 .animation-container{
   font-size: 1.7rem;
 }
+/* about apps section */
+.appsection{
+  display: flex;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.left-div {
+  flex: 1;
+  background-color: #ccc;
+  margin-right: 10px;
+}
+
+.right-container {
+  flex: 1;
+}
+
+.right-div {
+  background-color: #ddd;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #9288F8;
+  padding:1%;
+  margin-bottom: 1px;
+  border-radius:2%;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 50px;
+  border-radius: 10%;
+  padding-top: 1%;
+}
+
+
+.slide{
+  margin-left: 15.5%;
+  margin-right: 15.5%;
+}
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+}
+.carousel-control-next/*, .carousel-indicators */ {
+  filter: invert(100%);
+  position: absolute;
+  top: 50%;
+  right: -10%;
+  transform: translate(50%, -50%);
+}
+.carousel-indicators .active {
+  background-color: #337ab7;
+  position: relative;
+  top:10%;
+}
