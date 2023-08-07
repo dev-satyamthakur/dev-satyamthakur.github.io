@@ -12314,3 +12314,11 @@ pre .code {
 .header-title{
  font-size:120%;
 }
+.next{
+  position: relative;
+ left: 10px;
+}
+.prev{
+  position: relative;
+  left:10px;
+}
