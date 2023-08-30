@@ -12324,3 +12324,7 @@ pre .code {
 }
 
 
+/* logo */
+svg:hover {
+  fill: white;
+}
