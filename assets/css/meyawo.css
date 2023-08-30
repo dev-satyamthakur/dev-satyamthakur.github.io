@@ -12325,6 +12325,6 @@ pre .code {
 
 
 /* logo */
-svg:hover {
-  fill: white;
+a svg:hover {
+  fill: #fff;
 }
